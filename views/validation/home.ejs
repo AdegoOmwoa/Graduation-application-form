@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Graduation Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<p class="title">Graduation Form</p>
+<form action="/submit_all_semesters" method="post" class="form-container">
+    <div class="table-div">
+        <h3>First Semester</h3>
+        <input type="text" value="FIRST SEMESTER" disabled>
+        <table border="1">
+            <tr>
+                <th>Course Name</th>
+                <th>Credit Hours</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="firstSemester_courseName[]" /></td>
+                <td><input type="number" name="firstSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="firstSemester_courseName[]" /></td>
+                <td><input type="number" name="firstSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="firstSemester_courseName[]" /></td>
+                <td><input type="number" name="firstSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="firstSemester_courseName[]" /></td>
+                <td><input type="number" name="firstSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="firstSemester_courseName[]" /></td>
+                <td><input type="number" name="firstSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="firstSemester_courseName[]" /></td>
+                <td><input type="number" name="firstSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="firstSemester_courseName[]" /></td>
+                <td><input type="number" name="firstSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <!-- Additional rows for courses -->
+        </table>
+    </div>
+
+    <div class="table-div">
+        <h3>Second Semester</h3>
+        <input type="text" value="SECOND SEMESTER" disabled>
+        <table border="1">
+            <tr>
+                <th>Course Name</th>
+                <th>Credit Hours</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="secondSemester_courseName[]" /></td>
+                <td><input type="number" name="secondSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="secondSemester_courseName[]" /></td>
+                <td><input type="number" name="secondSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="secondSemester_courseName[]" /></td>
+                <td><input type="number" name="secondSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="secondSemester_courseName[]" /></td>
+                <td><input type="number" name="secondSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="secondSemester_courseName[]" /></td>
+                <td><input type="number" name="secondSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="secondSemester_courseName[]" /></td>
+                <td><input type="number" name="secondSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="secondSemester_courseName[]" /></td>
+                <td><input type="number" name="secondSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <!-- Additional rows for courses -->
+        </table>
+    </div>
+
+    <div class="table-div">
+        <h3>Inter-Semester</h3>
+        <input type="text" value="INTER SEMESTER" disabled>
+        <table border="1">
+            <tr>
+                <th>Course Name</th>
+                <th>Credit Hours</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="interSemester_courseName[]" /></td>
+                <td><input type="number" name="interSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="interSemester_courseName[]" /></td>
+                <td><input type="number" name="interSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="interSemester_courseName[]" /></td>
+                <td><input type="number" name="interSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="interSemester_courseName[]" /></td>
+                <td><input type="number" name="interSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="interSemester_courseName[]" /></td>
+                <td><input type="number" name="interSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="interSemester_courseName[]" /></td>
+                <td><input type="number" name="interSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="interSemester_courseName[]" /></td>
+                <td><input type="number" name="interSemester_creditHours[]" min="1" max="3" /></td>
+            </tr>
+            <!-- Additional rows for courses -->
+        </table>
+    </div>
+
+    <button type="submit">Submit all</button>
+</form>
+
+</body>
+</html>

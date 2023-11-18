@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Upload</title>
+  <link rel="stylesheet" href="/validation.css">
+</head>
+<body>
+
+  <h1>
+    <div style="text-align: center;">
+    Document Upload
+  </div>
+  </h1>
+
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="ksce-certificate">KSCE Certificate:</label>
+    <input type="file" name="kcse-certificate" accept="image/*" required>
+
+    <label for="courses-checklist">Courses Checklist:</label>
+    <input type="file" name="course-checklist" accept="image/*" required>
+
+    <button type="submit">Upload Documents</button>
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Use a modern font */
+    margin: 20px;
+    color: #333; /* Dark grey color for better readability */
+    background-color: #f5f5f5; /* Light grey background for less strain on eyes */
+  }
+  
+  form {
+    width: 90%; /* Responsive width */
+    max-width: 600px; /* Maximum width */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Add a subtle shadow for depth */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #007bff; /* Use a modern color for headings */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px; /* Rounded corners for inputs */
+  }
+  
+  button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
